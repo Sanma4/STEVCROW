@@ -8,10 +8,12 @@
     margin: auto;
 }
 /*nav bar*/
+
 .logo{
     height: 100px;
     width: 100px;
 }
+
 /*main movil*/
 
 
@@ -25,14 +27,14 @@
     text-align: center;
     background-color: transparent;
     color: rgb(0, 0, 0);
-    border: 1px 1px 1px 1px;
     border-color: rgb(0, 0, 0);
     box-shadow: 5px 5px 5px black;
-    margin-top: 500px;
+    margin-top: 550px;
     margin-left: 110px;
     font-family: 'Abril Fatface', cursive;
     transition: all 800ms ease;
     border-radius: 10px;
+    border: 1px 1px 1px 1px black;
 }
 
 .reserva:hover{
@@ -48,7 +50,6 @@
     margin: auto;   
     color: rgb(0, 0, 0);
     position: absolute;
-    margin-top: 250px;
     padding: 20px;
     text-align: center;
     top: 0;
@@ -56,7 +57,7 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    margin-top: 350px;
+    margin-top: 400px;
     font-family: 'Abril Fatface', cursive;
     justify-content: center;
 
@@ -68,7 +69,7 @@
     color: rgb(0, 0, 0);
     margin: auto;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 450px;
     padding: 20px;
     font-family: 'Abril Fatface', cursive;
     justify-content: center;
@@ -83,7 +84,7 @@
     margin: auto;   
     color: rgb(0, 0, 0);
     position: absolute;
-    margin-top: 250px;
+    margin-top: 300px;
     padding: 20px;
     top: 0;
     left: 0;
@@ -93,14 +94,15 @@
     margin-top: 160px;
     font-family: 'Courgette', cursive;
     justify-content: center;
+    font-size: bold;
 }
 
 main img{
     padding-top: 60px;
     z-index: 1;
     opacity: 0.6;
-    height: 800px;
-    width: 400px;
+    height: 810px;
+    width: 390px;
 
 
 }
