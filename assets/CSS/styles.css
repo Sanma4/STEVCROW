@@ -66,13 +66,13 @@
 
 .reservac{
     z-index: 5;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: rgb(0, 0, 0);
     margin: auto;
     position: absolute;
     margin-top: 450px;
     padding: 20px;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Dosis', sans-serif;
     justify-content: center;
 
 
@@ -81,7 +81,7 @@
 .reservan{
     display: flex;
     z-index: 5;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: auto;   
     color: rgb(0, 0, 0);
     position: absolute;
@@ -108,3 +108,27 @@ main img{
 
 }
 
+/* trabajos */
+.trabajost{
+    text-align: center;
+    font-family:'Abril Fatface', cursive;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.trabajosts{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: 'Dosis', sans-serif;
+    color: black;
+    
+}
+
+.mtrabajos{
+    display: flex;
+    width: 320px;
+    height: 420px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
