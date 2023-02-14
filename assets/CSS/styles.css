@@ -109,6 +109,8 @@ main img{
 }
 
 /* trabajos */
+
+
 .trabajost{
     text-align: center;
     font-family:'Abril Fatface', cursive;
@@ -139,6 +141,4 @@ main img{
 .mtrabajos:hover{
     -webkit-transform:scale(1.1);transform:scale(1.1);
     transition: all 800ms ease;
-    border-radius: 1px;
-    
 }
