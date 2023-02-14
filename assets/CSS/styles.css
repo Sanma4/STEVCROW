@@ -130,5 +130,15 @@ main img{
     width: 320px;
     height: 420px;
     margin-left: 35px;
-    margin-top: 50px;
+    margin-top: 30px;
+    overflow:hidden;
+    transition: all 800ms ease;
+    border-radius: 10px;
+}
+
+.mtrabajos:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition: all 800ms ease;
+    border-radius: 1px;
+    
 }
