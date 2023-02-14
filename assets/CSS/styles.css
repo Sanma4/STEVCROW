@@ -34,11 +34,12 @@
     font-family: 'Abril Fatface', cursive;
     transition: all 800ms ease;
     border-radius: 10px;
-    border: 1px 1px 1px 1px black;
+    border: none;
 }
 
 .reserva:hover{
-    background-color: #ffffff;
+    background-color: #000000;
+    color: white;
     transition: all 800ms ease;
     box-shadow:none;
 }
