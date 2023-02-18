@@ -22,6 +22,34 @@
     .contenido-ordenador{
         display: none;
     }
+
+    .faq{
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 0.6rem;
+    }
+    
+    .faqp{
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 0.4rem;
+        text-decoration: underline;
+    }
+    
+    .faqr{
+        font-family: 'Dosis', sans-serif;
+        color: #000000;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 10px;
+        font-size: 0.1rem;
+        font-weight: bold;
+    }
 }
 /*main movil*/
 
@@ -184,18 +212,42 @@
 }
 
 
+
 /*footer*/
 
 .faq{
     font-family: 'Dosis', sans-serif;
     font-weight: bold;
-    margin-top: 25px;
-    text-align: end;
+    padding-top: 15px;
+    margin-left: 15px;
     margin-right: 10px;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.faqp{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 1rem;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.faqr{
+    font-family: 'Dosis', sans-serif;
+    color: #000000;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .ig{
-    display: flex;
+    display: block;
     text-align: right;
     top: 0;
     left: 0;
@@ -203,16 +255,17 @@
     bottom: 0;
     text-decoration: none;
     color: #000000;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     position: absolute;
-    margin-top: 3050px;
-    margin-left: 15px;
+    margin-top: 3100px;
     transition: all 1000ms ease;
+
+    text-align: end;
 }
 
 .ws{
-    display: flex;
+    display: block;
     text-align: right;
     top: 0;
     left: 0;
@@ -220,16 +273,17 @@
     bottom: 0;
     text-decoration: none;
     color: #000000;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     position: absolute;
-    margin-top: 3080px;
-    margin-left: 15px;
+    margin-top: 3100px;
+    margin-left: 40px;
     transition: all 1000ms ease;
+
 }
 
 .fb{
-    display: flex;
+    display: block;
     text-align: right;
     top: 0;
     left: 0;
@@ -237,16 +291,17 @@
     bottom: 0;
     text-decoration: none;
     color: #000000;
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
     position: absolute;
-    margin-top: 3110px;
-    margin-left: 15px;
+    margin-top: 3100px;
+    margin-left: 120px;
     transition: all 1000ms ease;
+   
 }
 
 .tt{
-    display: flex;
+    display: block;
     text-align: right;
     top: 0;
     left: 0;
@@ -257,18 +312,52 @@
     height: 20px;
     width: 20px;
     position: absolute;
-    margin-top: 3140px;
-    margin-left: 15px;
-    margin-bottom: 40px;
+    margin-top: 3100px;
     transition: all 1000ms ease;
+    margin-left: 100px;
 }
 
-.ig:hover, .ws:hover, .fb:hover, .tt:hover{
-    color: #ca17b9;
-    -webkit-transform:scale(0.8);transform:scale(0.8);
+.ig:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
     transition: all 1000ms ease;
+    color: #E1306C;
+
+
 }
 
+.ws:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    transition: all 1000ms ease;
+    color: #25D366;
+}
+
+.fb:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    transition: all 1000ms ease;
+    color: #3b5998;
+}
+
+.tt:hover{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+    transition: all 1000ms ease;
+    color: #ff0050;
+}
+
+
+.footer{
+    color: white;
+    background-color: #000000;
+    padding-bottom: 7px
+}
+
+.footerc{
+    background-color: #000000;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    padding-top: 3%;
+}
 /* Ordenador */
 
 @media screen and (min-width: 1024px){
@@ -282,9 +371,13 @@
 
     /* Cita */
 
+    .fondo-img{
+        width: 1864px;
+    }
     .reservan{
         font-size: 4rem;
         margin-left: 2%;
+        color: white;
         
     }
     
@@ -295,7 +388,7 @@
         right: 0;
         bottom: 0;
         margin-top: 26%;
-
+        color: white;
     }
 
     .reservat{
@@ -303,7 +396,7 @@
         font-size: 2.5rem;
         padding: 20px;
         margin-top: 22%;
-
+        color: white;
     }
     .reserva{
         margin-top: 30%;
@@ -369,8 +462,133 @@
         position: absolute;
       
     }
-}
+
     
+}
+
+@media screen and (max-width: 760px){
+    .contenido-movil{
+        display: block;
+    }
+
+    .contenido-ordenador{
+        display: none;
+    }
+
+    .faq{
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+    
+    .faqp{
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+    
+    .faqr{
+        font-family: 'Dosis', sans-serif;
+        color: #000000;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 10px;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+
+    .ig{
+        display: block;
+        text-align: right;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-decoration: none;
+        color: #000000;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        margin-top: 1720px;
+        transition: all 1000ms ease;
+    
+        text-align: end;
+    }
+    
+    .ws{
+        display: block;
+        text-align: right;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-decoration: none;
+        color: #000000;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        margin-top: 1720px;
+        margin-left: 40px;
+        transition: all 1000ms ease;
+    
+    }
+    
+    .fb{
+        display: block;
+        text-align: right;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-decoration: none;
+        color: #000000;
+        height: 40px;
+        width: 40px;
+        position: absolute;
+        margin-top: 1720px;
+        margin-left: 330px;
+        transition: all 1000ms ease;
+       
+    }
+    
+    .tt{
+        display: block;
+        text-align: right;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        text-decoration: none;
+        color: #000000;
+        height: 20px;
+        width: 20px;
+        position: absolute;
+        margin-top: 1720px;
+        transition: all 1000ms ease;
+        margin-left: 300px;
+    }
+
+    .footer{
+        color: white;
+        background-color: #000000;
+        padding-bottom: 7px
+    }
+    
+    .footerc{
+        background-color: #000000;
+        padding-bottom: 2%;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 0.7rem;
+        padding-top: 3%;
+    }
+}
 .navbar{
     background-color: #000000;
 }
