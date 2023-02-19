@@ -140,9 +140,9 @@
 }
 
 .foto-aguila{
-    padding-top: 60px;
     z-index: 1;
     opacity: 0.6;
+    height: 800px;
 
 
 }
@@ -370,6 +370,7 @@
     /* Cita */
 
     .fondo-img{
+        padding: 0px;
         width: 1864px;
     }
     .reservan{
@@ -548,7 +549,7 @@
         height: 40px;
         width: 40px;
         position: absolute;
-        margin-top: 3025px;
+        margin-top: 3115px;
         transition: all 1000ms ease;
         margin-left: 0px;
         text-align: end;
@@ -566,7 +567,7 @@
         height: 40px;
         width: 40px;
         position: absolute;
-        margin-top: 3025px;
+        margin-top: 3115px;
         margin-left: 40px;
         transition: all 1000ms ease;
     
@@ -584,7 +585,7 @@
         height: 40px;
         width: 40px;
         position: absolute;
-        margin-top: 3025px;
+        margin-top: 3115px;
         margin-left: 330px;
         transition: all 1000ms ease;
        
@@ -602,7 +603,7 @@
         height: 20px;
         width: 20px;
         position: absolute;
-        margin-top: 3025px;
+        margin-top: 3115px;
         transition: all 1000ms ease;
         margin-left: 300px;
     }
@@ -644,8 +645,72 @@
         padding-top: 2.5%;
     }
 }
+
+@media screen and (min-width: 770px) and (max-width: 1279px) {
+    .foto-aguila{
+        display: none;
+    }
+    .reservan{
+        font-size: 4rem;
+        margin-left: 2%;
+        color: white;
+        padding-top: 10px;
+        
+    }
+    
+    .reservac{
+        font-size: 1.8rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 26%;
+        color: white;
+        padding-top: 180px;
+    }
+
+    .reservat{
+
+        font-size: 2.5rem;
+        padding: 20px;
+        margin-top: 22%;
+        color: white;
+        padding-top: 100px;
+    }
+    .reserva{
+        margin-top: 55%;
+        margin-left: 110px;
+        margin-left: 35%;
+    }
+
+    .big{
+        text-decoration: none;
+        align-items: center;
+        color: #000000;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        margin-left: 30%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1rem;
+        
+    }
+
+    .nig{
+        text-decoration: none;
+        align-items: center;
+        background-color: #313131;
+        color: #000000;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        padding-top: 2.5%;
+    }
+
+    
+}
+
 .navbar{
     background-color: #000000;
+    opacity: 0.6;
 }
 
 .offcanvas-header, .offcanvas-body, .nav-link, .nav-item, .dropdown-menu, .dropdown-item  {
