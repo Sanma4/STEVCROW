@@ -10,47 +10,11 @@
 /*nav bar*/
 
 .logo{
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
+    margin-left: 100px;
 }
 
-@media screen and (max-width: 760px){
-    .contenido-movil{
-        display: block;
-    }
-
-    .contenido-ordenador{
-        display: none;
-    }
-
-    .faq{
-        font-family: 'Dosis', sans-serif;
-        font-weight: bold;
-        padding-top: 15px;
-        margin-left: 15px;
-        margin-right: 10px;
-        font-size: 0.6rem;
-    }
-    
-    .faqp{
-        font-family: 'Dosis', sans-serif;
-        font-weight: bold;
-        margin-top: 15px;
-        margin-left: 15px;
-        font-size: 0.4rem;
-        text-decoration: underline;
-    }
-    
-    .faqr{
-        font-family: 'Dosis', sans-serif;
-        color: #000000;
-        margin-top: 15px;
-        margin-left: 30px;
-        margin-right: 10px;
-        font-size: 0.1rem;
-        font-weight: bold;
-    }
-}
 /*main movil*/
 
 
@@ -126,7 +90,6 @@
     margin: auto;   
     color: rgb(0, 0, 0);
     position: absolute;
-    margin-top: 300px;
     padding: 20px;
     top: 0;
     left: 0;
@@ -143,7 +106,8 @@
     z-index: 1;
     opacity: 0.6;
     height: 800px;
-
+    width: 390px;
+    
 
 }
 
@@ -399,7 +363,6 @@
         color: white;
     }
     .reserva{
-        margin-top: 30%;
         margin-left: 110px;
         margin-left: 45%;
     }
@@ -711,10 +674,14 @@
 
 .navbar{
     background-color: #000000;
-    opacity: 0.6;
 }
 
-.offcanvas-header, .offcanvas-body, .nav-link, .nav-item, .dropdown-menu, .dropdown-item  {
-    background-color: #000000;
-    color: white;
+.offcanvas-header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-nav{
+    background-color: #ffffff;
+    color: rgb(255, 255, 255);
 }
