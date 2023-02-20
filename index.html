@@ -17,52 +17,29 @@
 </head>
 <div class="contenedor">
   <header>
-    <div>
-      <img>
-    </div>
-    <nav class="navbar  fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar">
+      <div class="navbar">
+        <a href="index.html">
           <img src="assets/Logos/LOGO.png" class="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-          aria-controls="offcanvasNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <ul class="navbar">
+          <a href="#trabajos" class="botones bordes">
+            <li class="mstrabajos bordes">MIS TRABAJOS</li>
+          </a>
+          <a href="#titulos" class="botones bordes">
+            <li class="mstitulos bordes">MIS TITULOS</li>
+          </a>
+          <a href="#faq" class="botones bordes">
+            <li class="prf bordes">PREGUNTAS FRECUENTES</li>
+          </a>
+          <a href="assets/Libro-cuidados/Libro-cuidados.html" class="botones bordes"> 
+            <li class="libroc">LIBRO DE CUIDADOS</li>
+          </a>
+        </ul>
 
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-              aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">X</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  X
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">X</a></li>
-                  <li><a class="dropdown-item" href="#">X</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                  <li><a class="dropdown-item" href="#">X</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
+
+
     </nav>
 
   </header>
@@ -70,8 +47,8 @@
   <body>
     <main class="main">
       <h1 class="reservan">STEVCROW TATTO</h1>
-      <h2 class="reservat">Tatuajes de todos los estilos en Valencia.</h2>
-      <h3 class="reservac">Reserva tu cita y hazte un recuerdo para toda la vida</h3>
+      <h2 class="reservat">TATUAJES DE TODOS LOS ESTILOS EN VALENCIA</h2>
+      <h3 class="reservac">RESERVA TU CITA Y HAZTE UN RECUERDO PARA TODA LA VIDA</h3>
       <a href="https://api.whatsapp.com/send/?phone=34644381892">
         <button class="reserva">RESERVA TU CITA</button>
       </a>
@@ -79,7 +56,7 @@
       <img src="assets/Logos/fondo.png" class="contenido-ordenador fondo-img">
     </main>
     <section class="mistrabajos">
-      <h1 class="trabajost ">Baja para ver mis trabajos
+      <h1 class="trabajost" id="trabajos">BAJA PARA VER MIS TRABAJOS
         <hr>
       </h1>
       <h4 class="trabajosts">Los tatuajes son algo que dura para toda la vida.<br>
@@ -87,13 +64,13 @@
       </h4>
       <img src="assets/Logos/leon.jpeg" alt="TATTO" class="mtrabajos izq">
       <img src="assets/Logos/barco.jpeg" alt="TATTO" class="mtrabajos">
-      <img src="assets/Logos/tigre.jpeg" alt="TATTO" class="mtrabajos"><br>
+      <img src="assets/Logos/tigre.jpeg" alt="TATTO" class="mtrabajos abajo"><br>
       <div  class="nig">
         <a href="https://www.instagram.com/stevcrowtattoo/?next=%2F" class="big">Aquí puedes ver más trabajos</a>
       </div>
     </section>
     <section class="mistitulos">
-      <h1 class="titulost">Mis títulos
+      <h1 class="titulost" id="titulos">MIS TITULOS
         <hr>
       </h1>
       <h4 class="titulosts">Siempre quedan cosas por aprender.<br> Estoy en continuo aprendizaje para brindar lo mejor
@@ -103,27 +80,6 @@
     </section>
   </body>
   <section class="pre">
-    <div>
-      <h5 class="faq">Preguntas frecuentes</h5><hr>
-      <h4 class="faqp"> ¿Todo lo que se útiliza es esterilizado?
-        <h6 class="faqr">Si, todo los materiales que utilizo se esterilizan frente a ti. Las agujas estan completamente
-          celladas y se te mostrará</h6>
-      </h4>
-      <h4 class="faqp"> ¿Es un estudio de tatuajes?
-        <h6 class="faqr">No, actualmente trabajo en mi casa.</h6>
-      </h4>
-      <h4 class="faqp"> ¿Como mando el diseño que me interesa?
-        <h6 class="faqr">Esto puede ser mediante alguna foto de Google que se asemeje o un diseño en papel(aunque no
-          sepás dibujar) que muestre lo que quieres.</h6>
-      </h4>
-      <h4 class="faqp">¿Si soy menor tienen que ir mis padres?
-        <h6 class="faqr" >Si, tendrán que venir tus padres a autorizar dicho tatuaje.</h6>
-      </h4>
-      <h4>
-        <h6></h6>
-      </h4>
-    </div>
-
     <div class="redes">
       <a class="ig" href="https://www.instagram.com/stevcrowtattoo/?next=%2F" target="_blank">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
@@ -154,6 +110,28 @@
         </svg>
       </a>
     </div>
+    <div>
+      <h5 class="faq" id="faq">PREGUNTAS FRECUENTES</h5><hr>
+      <h4 class="faqp"> ¿Todo lo que se útiliza es esterilizado?
+        <h6 class="faqr">Si, todo los materiales que utilizo se esterilizan frente a ti. Las agujas estan completamente
+          celladas y se te mostrará</h6>
+      </h4>
+      <h4 class="faqp"> ¿Es un estudio de tatuajes?
+        <h6 class="faqr">No, actualmente trabajo en mi casa.</h6>
+      </h4>
+      <h4 class="faqp"> ¿Como mando el diseño que me interesa?
+        <h6 class="faqr">Esto puede ser mediante alguna foto de Google que se asemeje o un diseño en papel(aunque no
+          sepás dibujar) que muestre lo que quieres.</h6>
+      </h4>
+      <h4 class="faqp">¿Si soy menor tienen que ir mis padres?
+        <h6 class="faqr" >Si, tendrán que venir tus padres a autorizar dicho tatuaje.</h6>
+      </h4>
+      <h4>
+        <h6></h6>
+      </h4>
+    </div>
+
+    
 
   </section>
   <footer class="footer">
