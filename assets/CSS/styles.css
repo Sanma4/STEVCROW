@@ -12,7 +12,6 @@
 .logo{
     height: 120px;
     width: 120px;
-    margin-left: 100px;
 }
 
 /*main movil*/
@@ -106,7 +105,7 @@
     z-index: 1;
     opacity: 0.6;
     height: 800px;
-    width: 390px;
+    width: 391px;
     
 
 }
@@ -323,7 +322,7 @@
 }
 /* Ordenador */
 
-@media screen and (min-width: 1280px){
+@media screen and (min-width: 1024px){
     .contenido-ordenador{
         display: block;
     }
@@ -332,6 +331,11 @@
         display: none;
     }
 
+    .logo{
+        height: 120px;
+        width: 120px;
+        margin-left: 100px;
+    }
     /* Cita */
 
     .fondo-img{
@@ -610,7 +614,7 @@
     }
 }
 
-@media screen and (min-width: 770px) and (max-width: 1279px) {
+@media screen and (min-width: 770px) and (max-width: 1023px) {
     .foto-aguila{
         display: none;
     }
