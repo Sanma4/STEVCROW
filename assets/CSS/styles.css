@@ -10,8 +10,10 @@
 /*nav bar*/
 
 .logo{
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    z-index: 10000;
 }
 
 /*main movil*/
@@ -60,6 +62,7 @@
     margin-top: 400px;
     font-family: 'Abril Fatface', cursive;
     justify-content: center;
+    z-index: 100;
 
 }
 
@@ -95,7 +98,7 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    margin-top: 160px;
+    margin-top: 250px;
     font-family: 'Courgette', cursive;
     justify-content: center;
     font-size: bold;
@@ -104,8 +107,8 @@
 .foto-aguila{
     z-index: 1;
     opacity: 0.6;
-    height: 800px;
-    width: 391px;
+    height: 700px;
+    width: 400px;
     
 
 }
@@ -324,6 +327,8 @@
     .fondo-img{
         padding: 0px;
         width: 1864px;
+        z-index: 1;
+        
     }
     .reservan{
         font-size: 4rem;
@@ -338,7 +343,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        margin-top: 26%;
+        margin-top: 28%;
         color: white;
     }
 
@@ -346,12 +351,13 @@
 
         font-size: 2.5rem;
         padding: 20px;
-        margin-top: 22%;
+        margin-top: 20%;
         color: white;
     }
     .reserva{
         margin-left: 110px;
         margin-left: 45%;
+        margin-top: 650px;
     }
     
     /*trabajos */
@@ -452,6 +458,16 @@
         text-align: center;
         font-family: 'Dosis', sans-serif;
     }
+
+    header{
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        opacity: 0.6;
+    }
+    header::before{
+        scroll-behavior: smooth;
+    }
     .navbar{
         display: flex;
         list-style: none;
@@ -459,8 +475,7 @@
         padding: 0px;
         background-color: white;
         padding-bottom: 50px;
-        z-index: 5;
-        opacity: 0.;
+        
     }
     .mstrabajos{
         margin-left: 500px;
@@ -475,7 +490,7 @@
         
     }
     .libroc{
-        margin-left: 320px;
+        margin-left: 300px;
         transition: all 0.2ms ease;
     }
     .bordes{
@@ -490,12 +505,27 @@
         border-radius: 10px;
         padding: 10px;
         transition: all 2000ms ease;
-
+        
     }
 
+    .navbar{
+        background-color: #000000;
+    }
+    
+    .offcanvas-header {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navbar-nav{
+        background-color: #ffffff;
+        color: rgb(255, 255, 255);
+    }
+    
+    
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 768px){
     .contenido-movil{
         display: block;
     }
@@ -625,154 +655,133 @@
         padding-bottom: 10px;
         padding-top: 2.5%;
     }
-}
 
-@media screen and (min-width: 770px) and (max-width: 1023px) {
-    .foto-aguila{
-        display: none;
-    }
-    
-    .mtrabajos{
-        display: inline;
-        margin-top: 30px;
-        overflow:hidden;
-        margin-left: 75px;
-        transition: all 800ms ease;
-        border-radius: 10px;
-        justify-content: center;
-    }
-
-    .fondo-img{
-        padding: 0px;
-        width: 100%;
-        width: 1023px;
-    }
-
-    .abajo{
-        margin-left: 250px;
-    }
-    .reservan{
-        font-size: 4rem;
-        margin-left: 2%;
-        color: white;
-        padding-top: 10px;
-        
-    }
-
-    .titulos{
-        display: inline;
-        height: 100%;
-        padding-bottom: 30px;
-    }
-    
-    .reservac{
-        font-size: 1.8rem;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        margin-top: 26%;
-        color: white;
-        padding-top: 180px;
-    }
-
-    .reservat{
-
-        font-size: 2.5rem;
-        padding: 20px;
-        margin-top: 22%;
-        color: white;
-        padding-top: 100px;
-    }
-    .reserva{
-        margin-top: 55%;
-        margin-left: 110px;
-        margin-left: 35%;
-    }
-    /* Redes */
-    .ig{
-        display: flex;
+    /* Navbar */
+    .botones{
         text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 2%;
-        
-    }
-    
-    .ws{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 8%;
-        
-    }
-    
-    .fb{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 90%;
-        
-    }
-    
-    .tt{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 96%;
-    }
-
-
-    .big{
-        text-decoration: none;
-        align-items: center;
-        color: #000000;
-        margin-top: 20px;
-        padding-bottom: 50px;
-        margin-left: 30%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        text-align: center;
         font-family: 'Dosis', sans-serif;
-        font-size: 1rem;
+        background-color: white;
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+        z-index: 5;
+        opacity: 0.;
+    }
+    .mstrabajos{
         
     }
 
-    .nig{
-        text-decoration: none;
-        align-items: center;
-        background-color: #313131;
-        color: #000000;
-        margin-top: 20px;
-        padding-bottom: 10px;
-        padding-top: 2.5%;
+    .mstitulos{
+        
     }
 
+    .prf{
+        
+        
+    }
+    .libroc{
+        margin-left: 320px;
+        transition: all 0.2ms ease;
+    }
+    .bordes{
+        text-align: center;
+
+    }
+
+    .mstrabajos:hover, .mstitulos:hover, .prf:hover, .libroc:hover{
+        background-color: #ffffff;
+        color: black;
+        z-index: -1;
+        border-radius: 10px;
+        padding: 10px;
+        transition: all 2000ms ease;
+
+    }
+
+    /* Burger menu */
+    .bars__menu{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 85%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        z-index: 100;
+    }
     
-}
+    .bars__menu span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #9A00BF;
+        margin-top: 6px;
+        transform-origin: 0px 100%;
+        transition: all 700ms;
+    }
+    
+    .activeline1__bars-menu{
+        transform: rotate(45deg) translate(-2px, 1px); 
+    }
+    
+    .activeline2__bars-menu{
+        opacity: 0;
+        margin-left: -30px; 
+    }
+    
+    .activeline3__bars-menu{
+        transform: rotate(-45deg) translate(-4px, 2px);
+    }
+    .navbar{
+        background-color: #000000;
+        
+    }
+    
+    /* Menu escondido */
 
-.navbar{
-    background-color: #000000;
-}
+    .menu{
+        display: block;;
+        text-decoration: none;
+        list-style: none;
+        opacity: 0;
+        position: absolute;
+        background-color: #000000;
+        z-index: 1000;
+        transition: all 700ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        font-family: 'Dosis', sans-serif;
+        height: 700px;
+        padding-right: 10px;
+    }
 
-.offcanvas-header {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-}
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        margin-top: 500px;;
+    }
 
-.navbar-nav{
-    background-color: #ffffff;
-    color: rgb(255, 255, 255);
+    .menu li{
+        padding-top: 80px;
+        padding-right: 50px;
+    }
+    .activemenu{
+        opacity: 1;
+        margin-right: -60px;
+    }
+
+    .menu a:hover{
+        text-decoration: underline;
+    }
+
+    .ig{
+        margin-top: 100px;;
+    }
 }
