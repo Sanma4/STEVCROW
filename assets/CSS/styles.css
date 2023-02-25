@@ -37,6 +37,7 @@
     transition: all 800ms ease;
     border-radius: 10px;
     border: none;
+
 }
 
 .reserva:hover{
@@ -48,40 +49,29 @@
 
 
 .reservat{
-
+    display: flex;;
     font-size: 1.5rem;  
     color: rgb(0, 0, 0);
     position: absolute;
-    padding: 20px;
-    text-align: center;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
     margin-top: 400px;
     font-family: 'Abril Fatface', cursive;
-    justify-content: center;
-    z-index: 100;
 
+
+    text-align: center;
 }
 
 .reservac{
+    display: flex;
     z-index: 5;
     font-size: 1.1rem;
     color: rgb(0, 0, 0);
     margin: auto;
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin-top: 470px;
     padding: 20px;
     font-family: 'Dosis', sans-serif;
     justify-content: center;
     text-align: center;
-
+    margin-top: 465px;
 
 }
 
@@ -95,7 +85,7 @@
     padding: 20px;
     top: 0;
     left: 0;
-    right: 0;
+    right:0;
     bottom: 0;
     margin: auto;
     margin-top: 250px;
@@ -107,10 +97,7 @@
 .foto-aguila{
     z-index: 1;
     opacity: 0.6;
-    height: 700px;
-    width: 400px;
-    
-
+    height: 700px;;
 }
 
 /* trabajos */
@@ -306,6 +293,485 @@
 }
 /* Ordenador */
 
+@media screen and (max-width: 768px){
+    .contenido-movil{
+        display: block;
+    }
+
+    .contenido-ordenador{
+        display: none;
+    }
+
+    
+    
+    .faq{
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        padding-top: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
+        font-size: 1rem;
+    }
+    
+    .faqp{
+        font-family: 'Dosis', sans-serif;
+        font-weight: bold;
+        margin-top: 15px;
+        margin-left: 15px;
+        font-size: 0.8rem;
+        text-decoration: underline;
+    }
+    
+    .faqr{
+        font-family: 'Dosis', sans-serif;
+        color: #000000;
+        margin-top: 15px;
+        margin-left: 30px;
+        margin-right: 10px;
+        font-size: 0.7rem;
+        font-weight: bold;
+    }
+    
+
+    .footer{
+        color: white;
+        background-color: #000000;
+        padding-bottom: 7px
+    }
+    
+    .footerc{
+        background-color: #000000;
+        padding-bottom: 2%;
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        font-size: 0.7rem;
+        padding-top: 3%;
+    }
+
+    .big{
+        text-decoration: none;
+        align-items: center;
+        color: #000000;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        margin-left: 30%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 1rem;
+        
+    }
+
+    .nig{
+        text-decoration: none;
+        align-items: center;
+        background-color: #313131;
+        color: #000000;
+        margin-top: 20px;
+        padding-bottom: 10px;
+        padding-top: 2.5%;
+    }
+
+    /* Navbar */
+    .botones{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        background-color: white;
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px;
+        background-color: rgb(255, 255, 255);
+        padding-bottom: 50px;
+        z-index: 5;
+    }
+    .libroc{
+        margin-left: 320px;
+        transition: all 0.2ms ease;
+    }
+    .bordes{
+        text-align: center;
+
+    }
+
+    .mstrabajos:hover, .mstitulos:hover, .prf:hover, .libroc:hover{
+        background-color: #ffffff;
+        color: black;
+        z-index: -1;
+        border-radius: 10px;
+        padding: 10px;
+        transition: all 2000ms ease;
+
+    }
+
+    /* Burger menu */
+    .bars__menu{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 85%;
+        top: 10%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        z-index: 100;
+    }
+    
+    .bars__menu span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #9A00BF;
+        margin-top: 6px;
+        transform-origin: 0px 100%;
+        transition: all 700ms;
+    }
+    
+    .activeline1__bars-menu{
+        transform: rotate(45deg) translate(-2px, 1px); 
+    }
+    
+    .activeline2__bars-menu{
+        opacity: 0;
+        margin-left: -30px; 
+    }
+    
+    .activeline3__bars-menu{
+        transform: rotate(-45deg) translate(-4px, 2px);
+    }
+    .navbar{
+        background-color: #000000;
+        
+    }
+    
+    /* Menu escondido */
+
+    .menu{
+        display: block;;
+        text-decoration: none;
+        list-style: none;
+        opacity: 0;
+        position: absolute;
+        background-color: #000000;
+        z-index: 1000;
+        transition: all 700ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        font-family: 'Dosis', sans-serif;
+        height: 700px;
+        padding-right: 10px;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        margin-top: 500px;;
+    }
+
+    .menu li{
+        padding-top: 80px;
+        padding-right: 50px;
+    }
+    .activemenu{
+        opacity: 1;
+        margin-right: -60px;
+    }
+
+    .menu a:hover{
+        text-decoration: underline;
+    }
+
+    .ig{
+        margin-top: 100px;;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1023px) {
+    .contenido-ordenador{
+        display: block;
+    }
+
+    .contenido-movil{
+        display: none;
+    }
+
+    .logo{
+        height: 120px;
+        width: 120px;
+        z-index: 5;
+        margin-left: 90px;
+    }
+    /* Cita */
+
+    .fondo-img{
+        padding: 0px;
+        width: 00px;
+        z-index: 1;
+        opacity: 0;
+        position: absolute;
+        
+        
+    }
+
+    .reservan{
+        font-size: 4rem;
+        margin-left: 2%;
+        color: white;
+        margin-top: 200px;
+        
+    }
+    
+    .reservac{
+        font-size: 1.8rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: white;
+        margin-top: 650px;
+    }
+
+    .reservat{
+        margin-top: 500px;;
+        font-size: 2.5rem;
+        padding: 20px;
+        color: white;
+    }
+    .reserva{
+        margin-left: 310px;
+        margin-top: 850px;
+    }
+    
+    /*trabajos */
+
+    .mtrabajos{
+        display: inline;
+        height: 700px;
+        width: 540px;
+        margin-top: 30px;
+        overflow:hidden;
+        transition: all 800ms ease;
+        border-radius: 10px;
+        margin-left: 18%;
+    }
+
+    .izq{
+        margin-left: 18%;
+    }
+
+    .trabajost{
+        text-align: center;
+        font-family:'Abril Fatface', cursive;
+        font-size: 2rem;
+        margin-top: 30px;
+    }
+    
+    .trabajosts{
+        text-align: center;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        font-family: 'Dosis', sans-serif;
+        color: black;
+        
+    }
+
+    /* Titulos */
+    .titulost{
+        text-align: center;
+        font-family:'Abril Fatface', cursive;
+        font-size: 2rem;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .titulosts{
+        text-align: center;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+        font-family: 'Dosis', sans-serif;
+        color: white;
+    }
+
+    .titulos{
+        display: inline;
+        height: 100%;
+        width: 820px;
+        padding-bottom: 30px;
+    }
+
+    /* Redes */
+
+    .redes{
+        display: flex;
+        text-decoration: none;
+        color: #000000;
+        height: 20px;
+        width: 20px;
+      
+    }
+
+    .big{
+        text-decoration: none;
+        align-items: center;
+        color: #000000;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        margin-left: 40%;
+        font-family: 'Dosis', sans-serif;
+        font-size: 2rem;
+        
+    }
+
+    .nig{
+        display: block;;
+        text-decoration: none;
+        align-items: center;
+        background-color: #313131;
+        color: #000000;
+        margin-top: 20px;
+        padding-bottom: 50px;
+        padding-top: 2.5%;
+        text-align: center;
+        padding-right: 225px;
+    }
+    
+    /*Nav*/
+
+    .botones{
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        font-family: 'Dosis', sans-serif;
+        opacity: 0;
+        position: absolute;
+    }
+
+    .nav-header{
+        position: fixed;
+        z-index: 100;
+        width: 825px;
+        z-index: 1000;
+    }
+    header::before{
+        scroll-behavior: smooth;
+    }
+    .navbar{
+        display: flex;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px;
+        background-color: white;
+        padding-bottom: 50px;
+        opacity: 0.8;
+        
+    }
+
+    .navbar{
+        background-color: #000000;
+    }
+    
+    .offcanvas-header {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+    
+    .navbar-nav{
+        background-color: #ffffff;
+        color: rgb(255, 255, 255);
+    }
+    
+    /* Burguer */
+    .bars__menu{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        left: 85%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        z-index: 100000;
+    }
+    
+    .bars__menu span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #9A00BF;
+        margin-top: 6px;
+        transform-origin: 0px 100%;
+        transition: all 700ms;
+        
+    }
+    
+    .activeline1__bars-menu{
+        transform: rotate(45deg) translate(-2px, 1px); 
+    }
+    
+    .activeline2__bars-menu{
+        opacity: 0;
+        margin-left: -30px; 
+    }
+    
+    .activeline3__bars-menu{
+        transform: rotate(-45deg) translate(-4px, 2px);
+    }
+    .navbar{
+        background-color: #000000;
+        
+    }
+    
+    /* Menu escondido */
+
+    .menu{
+        display: block;;
+        text-decoration: none;
+        list-style: none;
+        opacity: 0;
+        position: absolute;
+        background-color: #000000;
+        z-index: 1000;
+        transition: all 700ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        font-family: 'Dosis', sans-serif;
+        height: 950px;
+        padding-right: 10px;
+        z-index: 100;
+    }
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+        margin-top: 500px;;
+        z-index: 10;
+    }
+
+    .menu li{
+        padding-top: 80px;
+        padding-right: 50px;
+        z-index: 10;
+    }
+    .activemenu{
+        opacity: 1;
+        margin-right: -60px;
+        z-index: 100;
+        color: #000000;
+        opacity: 0.9;
+        
+    }
+
+    .menu a:hover{
+        text-decoration: underline;
+        color: #ffffff;
+        opacity: 1;
+        
+    }
+
+}   
+
+
+
 @media screen and (min-width: 1024px){
     .contenido-ordenador{
         display: block;
@@ -316,7 +782,6 @@
     }
 
     .logo{
-        position: relative;
         height: 120px;
         width: 120px;
         z-index: 5;
@@ -329,6 +794,11 @@
         width: 1864px;
         z-index: 1;
         
+    }
+
+    .fondo-t{
+        opacity: 0;
+        position: absolute;
     }
     .reservan{
         font-size: 4rem;
@@ -343,20 +813,19 @@
         left: 0;
         right: 0;
         bottom: 0;
-        margin-top: 28%;
         color: white;
+        margin-top: 550px;
     }
 
     .reservat{
-
+        margin-top: 400px;;
         font-size: 2.5rem;
         padding: 20px;
-        margin-top: 20%;
         color: white;
+        margin-left: 450px;
     }
     .reserva{
-        margin-left: 110px;
-        margin-left: 45%;
+        margin-left: 810px;
         margin-top: 650px;
     }
     
@@ -478,7 +947,7 @@
         
     }
     .mstrabajos{
-        margin-left: 500px;
+        margin-left: 200px;
     }
 
     .mstitulos{
@@ -522,191 +991,8 @@
         color: rgb(255, 255, 255);
     }
     
-    
-}
+    /* Burguer */
 
-@media screen and (max-width: 768px){
-    .contenido-movil{
-        display: block;
-    }
-
-    .contenido-ordenador{
-        display: none;
-    }
-
-    .faq{
-        font-family: 'Dosis', sans-serif;
-        font-weight: bold;
-        padding-top: 15px;
-        margin-left: 15px;
-        margin-right: 10px;
-        font-size: 1rem;
-    }
-    
-    .faqp{
-        font-family: 'Dosis', sans-serif;
-        font-weight: bold;
-        margin-top: 15px;
-        margin-left: 15px;
-        font-size: 0.8rem;
-        text-decoration: underline;
-    }
-    
-    .faqr{
-        font-family: 'Dosis', sans-serif;
-        color: #000000;
-        margin-top: 15px;
-        margin-left: 30px;
-        margin-right: 10px;
-        font-size: 0.7rem;
-        font-weight: bold;
-    }
-    
-    .redes{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 20px;
-        width: 20px;
-      
-    }
-
-    .ig{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 10px;
-        margin-top: 6%;
-    }
-    
-    .ws{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 50px;
-        margin-top: 6%;
-    }
-    
-    .fb{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 320px;
-        margin-top: 6%;
-    }
-    
-    .tt{
-        display: flex;
-        text-decoration: none;
-        color: #000000;
-        height: 40px;
-        width: 40px;
-        position: absolute;
-        transition: all 1000ms ease;
-        margin-left: 360px;
-        margin-top: 6%;
-    }
-
-    .footer{
-        color: white;
-        background-color: #000000;
-        padding-bottom: 7px
-    }
-    
-    .footerc{
-        background-color: #000000;
-        padding-bottom: 2%;
-        text-align: center;
-        font-family: 'Dosis', sans-serif;
-        font-size: 0.7rem;
-        padding-top: 3%;
-    }
-
-    .big{
-        text-decoration: none;
-        align-items: center;
-        color: #000000;
-        margin-top: 20px;
-        padding-bottom: 50px;
-        margin-left: 30%;
-        font-family: 'Dosis', sans-serif;
-        font-size: 1rem;
-        
-    }
-
-    .nig{
-        text-decoration: none;
-        align-items: center;
-        background-color: #313131;
-        color: #000000;
-        margin-top: 20px;
-        padding-bottom: 10px;
-        padding-top: 2.5%;
-    }
-
-    /* Navbar */
-    .botones{
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-        background-color: rgb(255, 255, 255);
-        text-align: center;
-        font-family: 'Dosis', sans-serif;
-        background-color: white;
-    }
-    .navbar{
-        display: flex;
-        list-style: none;
-        text-decoration: none;
-        padding: 0px;
-        background-color: rgb(255, 255, 255);
-        padding-bottom: 50px;
-        z-index: 5;
-        opacity: 0.;
-    }
-    .mstrabajos{
-        
-    }
-
-    .mstitulos{
-        
-    }
-
-    .prf{
-        
-        
-    }
-    .libroc{
-        margin-left: 320px;
-        transition: all 0.2ms ease;
-    }
-    .bordes{
-        text-align: center;
-
-    }
-
-    .mstrabajos:hover, .mstitulos:hover, .prf:hover, .libroc:hover{
-        background-color: #ffffff;
-        color: black;
-        z-index: -1;
-        border-radius: 10px;
-        padding: 10px;
-        transition: all 2000ms ease;
-
-    }
-
-    /* Burger menu */
     .bars__menu{
         width: 30px;
         height: 30px;
@@ -716,33 +1002,7 @@
         transform: translate(-50%, -50%);
         cursor: pointer;
         z-index: 100;
-    }
-    
-    .bars__menu span {
-        display: block;
-        width: 100%;
-        height: 2px;
-        background: #9A00BF;
-        margin-top: 6px;
-        transform-origin: 0px 100%;
-        transition: all 700ms;
-    }
-    
-    .activeline1__bars-menu{
-        transform: rotate(45deg) translate(-2px, 1px); 
-    }
-    
-    .activeline2__bars-menu{
         opacity: 0;
-        margin-left: -30px; 
-    }
-    
-    .activeline3__bars-menu{
-        transform: rotate(-45deg) translate(-4px, 2px);
-    }
-    .navbar{
-        background-color: #000000;
-        
     }
     
     /* Menu escondido */
@@ -759,29 +1019,7 @@
         font-family: 'Dosis', sans-serif;
         height: 700px;
         padding-right: 10px;
-    }
-
-    .menu a{
-        text-decoration: none;
-        color: white;
-        font-family: 'Dosis', sans-serif;
-        margin-top: 500px;;
-    }
-
-    .menu li{
-        padding-top: 80px;
-        padding-right: 50px;
-    }
-    .activemenu{
-        opacity: 1;
-        margin-right: -60px;
-    }
-
-    .menu a:hover{
-        text-decoration: underline;
-    }
-
-    .ig{
-        margin-top: 100px;;
+        opacity: 0;
     }
 }
+
