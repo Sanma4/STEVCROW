@@ -1,21 +1,356 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Libro de cuidados - Stevcrow</title>
+  <link rel="stylesheet" href="../CSS/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Courgette&family=Dosis&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 
-<header>
-    <div class="bars__menu">
+<div class="contenedor">
+  <header class="nav-header">
+
+    <nav class="navbar contenido-ordenador">
+      <div class="navbar contenido-ordenador">
+        <a href="index.html " class="">
+          <img src="../Logos/LOGO.png" class="logo">
+        </a>
+        <ul class="navbar contenido-ordenador">
+          <a href="#trabajos" class="botones bordes contenido-ordenador">
+            <li class="mstrabajos bordes">MIS TRABAJOS</li>
+          </a>
+          <a href="#titulos" class="botones bordes contenido-ordenador">
+            <li class="mstitulos bordes">MIS TITULOS</li>
+          </a>
+          <a href="#faq" class="botones bordes contenido-ordenador">
+            <li class="prf bordes">PREGUNTAS FRECUENTES</li>
+          </a>
+          <a href="../Libro-cuidados/Libro-cuidados.html" class="botones bordes contenido-ordenador">
+            <li class="libroc">LIBRO DE CUIDADOS</li>
+          </a>
+        </ul>
+      </div>
+    </nav>
+
+    <nav class="nav-header-burger">
+      <div class="bars__menu">
         <span class="line1__bars-menu"></span>
         <span class="line2__bars-menu"></span>
         <span class="line3__bars-menu"></span>
       </div>
-    
-</header>
-<body>
-    
-</body>
+
+      <ul class="menu">
+        <li class="escondidos">
+          <a href="#trabajos">MIS TRABAJOS</a>
+        </li>
+        <li class="escondidos">
+          <a href="#titulos">MIS TITULOS</a>
+        </li>
+        <li class="escondidos">
+          <a href="#prf">PREGUNTAS FRECUENTES</a>
+        </li>
+        <li class="escondidos">
+          <a href="assets/Libro-cuidados/Libro-cuidados.html">LIBRO DE CIUDADOS</a>
+        </li>
+        <!--         <li class="escondidos">
+              <a href="" class="ig">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+               </svg>
+              </a>
+            </li>
+            <li class="redes"><a href=""></a></li>
+            <li class="redes"><a href=""></a></li> -->
+      </ul>
+    </nav>
+  </header>
+
+  <body>
+    <div class="sobre-expuesto">
+      <h1>CUIDADOS DE TATUAJES</h1>
+      <hr>
+      <p>1. Lavar el tatuaje únicamente con agua, o jabón de PH neutro, masajear suave entonces con la yema de los dedos, retirando la capa de secreciones oresiduos generados por el proceso de cicatrización hasta que el tatuaje quede completamente liso.</p>
+      <p>2. Secar el tatuaje con una servilleta de cocina, palpando suavemente el área tatuada.</p>
+      <p>3. Aplicar una capa delgada de bálsamo sobre la
+        piel, como si la crema fuera más costosa que el
+        tatuaje.</p>
+      <p>4. Cubrir con film transparente.
+        Este lavado recomiendo hacerlo 3 veces al día por
+        un periodo de 3 a 4 días, permaneciendo con el
+        plástico en todo momento incluso llegando a dormir
+        con el, ya que estoy ayuda a que no se nos
+        contamine el tatuaje, a mantener el tatuaje en un
+        ambiente húmedo, evita que se forme la costra y
+        mantiene la crema o bálsamo en su lugar, a partir de
+        los 3 días recomiendo suspender el plástico y aplicar
+        crema periódicamente al tatuaje cuando este se vea
+        reseco.
+        En un periodo de 4 días es recomendable.
+      </p>
+      
+        <p>En un periodo de 4 días es recomendable el evitar
+          sudoración excesiva ya que esto puede irritar el
+          tatuaje, así que lo mejor es suspender por este
+          periodo actividades deportivas o que generen
+          sudoración estos pueden incluir el sexo o el
+          ejercicio, evitar ingerir cualquier tipo de alcohol ya
+          que esto es vaso dilatador he influye en el tiempo de
+          cicatrización, si al utilizar el plástico vemos irritación
+          y sentimos un profundo escozor o una sensación de
+          picazón bastante pronunciada lo mejor será
+          suspender el plástico.</p>
+        <p>Es importante resaltar que no en todos los casos se
+          recomienda el uso del plástico, eso depende mucho
+          de cada técnica de tatuaje he incluso de cada artista,
+          hablando con muchos tatuadores y escuchando
+          opiniones de todo tipo, así que tomé la decisión de
+          empezar a probar ciertos tipos de cuidados, uno de
+          los mejores tatuadores a nivel mundial FRED
+          THOMAS con el cual tomé un par de cursos, en su
+          técnica de realismo en sombras, recomienda aplicar
+          poco bálsamo y cubrir con un empapador y film,
+          durante las primeras 24 horas y después retirar el
+          plástico, lavarlo un par de veces al día y aplicar poco
+          bálsamo. En este caso el artista también
+          recomienda, limpiar las zonas muy bien las
+          secreciones en especial hacer énfasis en las zonas
+          más negras del tatuaje que es donde se genera la
+          mayor cantidad de este fluido y dejarlo al aire libre;
+          como vemos en este tipo de cuidados sólo
+          llevaremos el plástico un solo día, pero hay que
+          resaltar que es una técnica que no lastima tanto la
+          piel como podría ser un tatuaje a color o con mucho
+          relleno sólido.</p>
+        <p>En general yo sigo recomendando el plástico o
+          film de 3 a 4 días en especial para tatuajes a color o
+          con mucho relleno, y para los tatuajes en sombras
+          un día o dos por tema de higiene, y para que no se
+          nos pegue la ropa lo que conlleva a que lastimemos
+          muchísimo el tatuaje al momento de despegarla de
+          la piel.</p>
+          <h2>BEBER AGUA</h2>
+        <p>El agua es el medio
+          principal por el cual
+          llega el oxígeno y
+          los nutrientes
+          llegan a nuestras
+          heridas, cuando
+          tenemos una mala
+          hidratación o
+          estamos
+          deshidratados,
+          estos nutrientes
+          esenciales no
+          pueden llegar a la
+          superficie de las
+          heridas, por lo que
+          tenemos una
+          interrupción celular
+          y se retrasa la
+          cicatrización del
+          tatuaje.</p>
+        <h2>NO BEBER ALCOHOL</h2>
+        <p>Beber alcohol en exceso nos deshidrata y afecta
+          nuestro sistema inmunológico, los glóbulos blancos
+          encargados de defendernos de las bacterias y
+          demás microorganismos no funcionan correctamente
+          y podemos tener una infección; beber alcohol en
+          exceso antes durante el tatuaje, hace que nuestro
+          tatuaje sangre más, dificultando el trabajo del artista.</p>
+        <H2>SUDORACIÓN EXCESIVA</H2>
+        <p>Sudar en exceso genera humedad en el área
+          tatuada, humedad acompañada de bacterias y
+          toxinas, el sudor puede provocar irritación o
+          infección de nuestro tatuaje.</p>
+        <h2>NO FUMAR</h2>
+        <p>El tabaco, a través de las múltiples toxinas que
+          contiene, produce deshidratación de la piel, he
+          interfiere en el proceso de cicatrización al disminuir
+          el aporte de oxígeno y de colágeno en la piel.</p>
+        <h2>EVITAR EL SOL</h2>
+        <p>El sol es el peor enemigo del tatuaje, puede generar
+          cambios en la cicatrización debido a una hiper
+          pigmentación de la piel, resecar en exceso el tatuaje,
+          así como también puede generar cambios en la
+          composición del pigmen</p>
+        <h2>MIEL DE ABEJA PURA</h2>
+        <p>La miel de abeja es
+          hidratante, revitalizante
+          y nutritiva para la piel, la
+          miel también sirve como
+          antiséptico o antibiótico
+          natural para las lesiones
+          en la piel, esto la hace
+          una opción más que
+          ideal para el cicatrizado
+          de nuestro tatuaje ya
+          que estimula la
+          circulación en los tejidos
+          epiteliales y a nivel
+          capilar, si bien tiene
+          grandes propiedades los cuidados con la miel suelen
+          ser bastante prolongados y en algunos casos
+          pueden resultar un poco molestos para la mayoría
+          ya que se debe usar la miel junto con el plástico en
+          un periodo comprendido desde el día del tatuaje
+          hasta 15 o 20 días después, básicamente hasta que
+          sane nuestro tatuaje, cabe resaltar que hay que
+          cambiar la miel y el plástico cada día una o dos
+          veces por día retirando la miel vieja junto con los
+          residuos excretados por la piel.</p>
+          <h2>PARCHES DE ACRILICO</h2>
+        <p>Este es el mejor y
+          más cómodo
+          sistema de
+          curación para el
+          tatuaje en la
+          actualidad ya que
+          solo debemos
+          preocuparnos un
+          máximo de 4 veces
+          durante todo el
+          proceso de
+          curación.
+          Los parches
+          cuentan con un
+          adhesivo acrílico el
+          cual debe de ser
+          aplicado en
+          temperaturas mínimas de 5 grados y máximas de 30
+          para no comprometer la integridad del parche.
+          Son impermeables y libres de látex, por lo cual hace
+          posible el bañarse sin riesgo de desprendimiento.
+          Se recomienda evitar hacer ejercicio o alguna
+          actividad que nos haga sudar ya que el sudor podría
+          llegar a saturar el parche; así como también evitar
+          deportes de contacto ya que un golpe puede no sólo
+          afectar el parche, si no también nuestro tatuaje.
+          Evitar la exposición al sol es sumamente importante
+          ya que este afecta la composición de los pigmentos
+          lo que ocasiona la degradación del mismo.</p>
+          <h3>¿CÓMO DEBO APLICARLO?</h3>
+        <p>Cuando se finaliza el proceso del tatuaje es
+          recomendable aplicar bálsamo y sobre el área
+          tatuada y dejarlo sangrar o supurar por unos 20
+          minutos, limpiamos el tatuaje con agua y jabón
+          quirúrgico cada 5 o 7 minutos y aplicamos
+          nuevamente el bálsamo, una vez pasado este
+          tiempo. Limpiamos el tatuaje con agua destilada
+          para retirar todo rastro de jabón o bálsamo y
+          secamos con servilletas de tatuaje.
+          El parche debe sobresalir de 2 cm como mínimo
+          alrededor del tatuaje y es importante que toda la
+          zona donde se adhiere el parche esté libre de vello.
+          Al momento de pegarlo mantener el parche estirado
+          y una vez pegado, procederemos a ir retirado con
+          unidad o las burbujas que puedan llegar a formarse.</p>
+          <h3>PROCESO DE CURACIÓN DE PARCHES</h3>
+        <p>Tras 24 horas de la aplicación del primer parche,
+          este se satura de sangre y tinta. Este es el momento
+          de cambiarlo.
+          Para retirar el parche envuelve hielo en una toalla y
+          aplícalo sobre la piel, el frío hace que el parche se
+          desprenda con facilidad.
+          Lavar con abundante agua y jabón neutro, de
+          manera opcional se puede aplicar microdacyn, es
+          importante que el tatuaje esté completamente libre
+          de residuos, colocamos el nuevo parche y lo
+          dejamos un periodo de 6 a 7 días según
+          recomendación del fabricante.
+          A partir del sexto día se formarán partes duras en el
+          parche ya que la costra se adhiere al parche y no a
+          la piel, y hace parte del proceso normal de
+          cicatrización.
+          En ocasiones si el tatuaje sigue supurando tinta
+          después de las primeras 48 horas es recomendable
+          cambiar el parche, también es recomendable
+          cambiarlo si se desprende parte del parche debido al
+          sudor o a un golpe.
+          En general en cualquiera de estos cuidados
+          tendremos un periodo de 1 a 2 días donde el tatuaje
+          supura tinta y fluidos esto ocurre casi en el 100% de
+          los casos, y otro de 20 días en el que será
+          importante que no reciba de sol directamente a
+          nuestro tatuaje ya que esto ocasiona la degradación
+          del pigmento y la mala cicatrización del tatuaje, en
+          algunos casos incluso la tinta negra puede pasar a
+          una tonalidad verdosa o azulada, también debemos
+          de evitar exponer nuestro tatuaje a aguas
+          estancadas o en mal estado, así también como
+          evitar ingresar en aguas contaminadas como pueden
+          ser piscinas, ríos, mares o lagos, ya que el tatuaje
+          no deja de ser una herida abierta la cual puede
+          llegar a infectarse.</p>
+          <h2>POSIBLES COMPLICACIONES</h2>
+        <p>Aquí enunciamos una serie de complicaciones a las
+          cuales se les puede dar solución de manera sencilla
+          y rápida, pero si el tatuaje muestra signos de
+          infección o nos sentimos mal lo mejor siempre va a
+          ser acudir a un médico.</p>
+        <p></p>
+        <ol type="A">
+          <li>En el tatuaje o la piel de al rededor se pueden
+            notar granitos o puntos negros, recordemos que
+            antes de colocar la plantilla procedemos a afeitar. A
+            gran cantidad de personas se le puede llegar a
+            encarnar uno que otro bello, así que no te alarmes y
+            una vez cicatrizado el tatuaje, procederemos a quitar
+            el granito sin mayores inconvenientes.</li>
+          <li>La piel se llena de burbujas o ampollas color
+            transparente, esto se debe a un exceso de
+            hidratación de la piel, así que dile a tu cliente que no
+            sea tan generoso al momento de aplicar la crema.</li>
+          <li>El tatuaje y la piel de al
+            rededor está irritado y
+            genera sensación de picor
+            insoportable, esto se debe
+            también a un exceso de
+            hidratación de la piel o
+            humedad, lo mejor en estos
+            casos es suspender el
+            bálsamo y el plástico, una
+            vez hecho esto si los
+            hongos persisten podemos
+            utilizar una crema que se
+            llama ácido fusidico; esta
+            crema es un antibiótico con
+            efecto secante que se
+            emplea en un gran número
+            de infecciones en la piel, si
+            llegamos a estos extremos;
+            lo más probable es que tengamos que repasar todo
+            el tatuaje ya que está crema hace que se pierda
+            muchísimo pigmento.
+            </li>
+          <li>Exceso de costra, normalmente se debe a dos
+            situaciones, la primera es que el cliente no se lavó el
+            tatuaje, no se lo cura o simplemente se niega
+            realizar los cuidados recomendados, y la segunda es
+            que se lastima de más la piel, lo que también puede
+            ocasionar una costra prominente, en ambos casos el
+            tatuaje perderá mucha pigmentación.</li>
+          <li>El tatuaje empieza a dolor en exceso, toda el área
+            se inflama y tiene rastros de pus, lo más
+            recomendable es ir inmediatamente al médico ya
+            que tenemos una infección en la piel. El cuidado es
+            básico ya que es una herida abierta expuesta a los
+            elementos y microorganismos lo genera una
+            infección.</li>
+        </ol>
+    </div>
+      <img src="../Logos/Fondo1.png" class="fondo-libro contenido-ordenador">
+      <img src="../Logos/Fondo2.png" class="fondo-libro-movil contenido-movil">
+      <script src="../JS/script.js"></script>
+  </body>
+</div>
+
 </html>

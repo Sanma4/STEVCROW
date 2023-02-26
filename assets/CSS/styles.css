@@ -502,6 +502,7 @@
         z-index: 5;
         margin-left: 90px;
     }
+    
     /* Cita */
 
     .fondo-img{
@@ -512,6 +513,10 @@
         position: absolute;
         
         
+    }
+
+    .fondo-t{
+        width: 835px;
     }
 
     .reservan{
@@ -541,9 +546,10 @@
     .reserva{
         margin-left: 310px;
         margin-top: 850px;
+        color: white;;
     }
     
-    /*trabajos */
+    /* Trabajos */
 
     .mtrabajos{
         display: inline;
@@ -577,6 +583,7 @@
     }
 
     /* Titulos */
+
     .titulost{
         text-align: center;
         font-family:'Abril Fatface', cursive;
@@ -651,7 +658,7 @@
     .nav-header{
         position: fixed;
         z-index: 100;
-        width: 825px;
+        width: 835px;
         z-index: 1000;
     }
     header::before{
@@ -934,9 +941,7 @@
         width: 100%;
         opacity: 0.6;
     }
-    header::before{
-        scroll-behavior: smooth;
-    }
+
     .navbar{
         display: flex;
         list-style: none;
@@ -1020,6 +1025,31 @@
         height: 700px;
         padding-right: 10px;
         opacity: 0;
+    }
+}
+
+/* Libro */
+
+@media screen and (max-width:760px){
+    .sobre-expuesto{
+        position: absolute;
+        background-color: black;
+        margin: 20px 25px;
+        width: 340px;
+        color: white;
+    } 
+
+    .sobre-expuesto p{
+        padding: 10px ;
+        font-size: 0.6rem;
+    }
+
+    .fondo-libro-movil{
+        width: 390px;;
+        height: 800px;
+        position: absolute;
+        top: 0;
+        z-index: -1;
     }
 }
 
