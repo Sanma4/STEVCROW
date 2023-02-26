@@ -1043,13 +1043,45 @@
         padding: 10px ;
         font-size: 0.6rem;
     }
+    .sobre-expuesto ol li{
+        padding: 10px ;
+        font-size: 0.6rem;
+    }
+    .sobre-expuesto h1{
+        padding: 10px ;
+        font-size: 1rem;
+    }
+    .sobre-expuesto h2{
+        padding: 10px ;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+
+    .sobre-expuesto h3{
+        padding: 10px ;
+        font-size: 0.6rem;
+        text-decoration: underline;
+    }
 
     .fondo-libro-movil{
         width: 390px;;
         height: 800px;
-        position: absolute;
         top: 0;
         z-index: -1;
     }
+
+    .cuidados{
+        position: fixed;
+        z-index: 100;
+        
+    }
+
+    .cuidados li{
+
+        padding-top: 50px;
+        padding-right: 50px;
+        
+    }
+
 }
 
