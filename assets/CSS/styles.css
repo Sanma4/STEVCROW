@@ -1032,9 +1032,10 @@
     .sobre-expuesto{
         position: absolute;
         background-color: black;
-        margin: 20px 25px;
+        margin: 200px 25px;
         width: 340px;
         color: white;
+        font-family: 'Dosis', sans-serif;
     } 
 
     .sobre-expuesto p{
@@ -1069,10 +1070,19 @@
     }
     .cuidados li{
 
-        padding-top: 50px;
+        padding-top: 40px;
         padding-right: 50px;
         
     }
 
+    .nav-libro{
+        margin-top: 50px;
+    }
+
+    .header-libro{
+        position: fixed;
+        z-index: 1000;
+        width: 390px;
+    }
 }
 
