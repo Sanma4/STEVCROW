@@ -49,6 +49,7 @@
 
 
 .reservat{
+    z-index: 1;
     display: flex;;
     font-size: 1.5rem;  
     color: rgb(0, 0, 0);
@@ -96,7 +97,7 @@
 
 .foto-aguila{
     z-index: 1;
-    opacity: 0.6;
+    opacity: 0.8;
     height: 700px;;
 }
 
@@ -200,81 +201,6 @@
     text-align: center;
 }
 
-.ig{
-    display: flex;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    transition: all 1000ms ease;
-    margin-left: 100px;
-    padding-top: 2%;
-}
-
-.ws{
-    display: flex;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    transition: all 1000ms ease;
-    margin-left: 200px;
-    padding-top: 2%;
-}
-
-.fb{
-    display: flex;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    transition: all 1000ms ease;
-    margin-left: 1650px;
-    padding-top: 2%;
-}
-
-.tt{
-    display: flex;
-    text-decoration: none;
-    color: #000000;
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    transition: all 1000ms ease;
-    margin-left: 1750px;
-    padding-top: 2%;
-
-}
-
-.ig:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
-    transition: all 1000ms ease;
-    color: #E1306C;
-    
-
-
-}
-
-.ws:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
-    transition: all 1000ms ease;
-    color: #25D366;
-}
-
-.fb:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
-    transition: all 1000ms ease;
-    color: #3b5998;
-}
-
-.tt:hover{
-    -webkit-transform:scale(1.3);transform:scale(1.3);
-    transition: all 1000ms ease;
-    color: #ff0050;
-}
 
 
 .footer{
@@ -347,6 +273,8 @@
         font-size: 0.7rem;
         padding-top: 3%;
     }
+
+
 
     .big{
         text-decoration: none;
@@ -466,7 +394,6 @@
         text-decoration: none;
         color: white;
         font-family: 'Dosis', sans-serif;
-        margin-top: 500px;;
     }
 
     .menu li{
@@ -482,8 +409,36 @@
         text-decoration: underline;
     }
 
-    .ig{
-        margin-top: 100px;;
+    /* Redes */
+    .instagram-movil{
+        display: inline-block;
+        position: absolute;
+        margin-left: 5px;
+    }
+
+ 
+    .tiktok-movil{
+        display: inline-block;
+        margin: 0px;;
+        position: absolute;
+        margin-left: 55px;
+    }
+
+ 
+    .face-movil{
+        display: inline-block;
+        margin: 0px;;
+        position: absolute;
+        margin-left: 105px;
+
+}
+
+ 
+     .what-movil{
+        display: inline-block;
+        margin: 0px;;
+        position: absolute;
+        margin-left: 155px;
     }
 }
 
@@ -653,10 +608,11 @@
         font-family: 'Dosis', sans-serif;
         opacity: 0;
         position: absolute;
+        cursor: default;
     }
 
     .nav-header{
-        position: fixed;
+        position: absolute;
         z-index: 100;
         width: 835px;
         z-index: 1000;
@@ -748,7 +704,7 @@
         text-decoration: none;
         color: white;
         font-family: 'Dosis', sans-serif;
-        margin-top: 500px;;
+
         z-index: 10;
     }
 
@@ -770,6 +726,57 @@
         text-decoration: underline;
         color: #ffffff;
         opacity: 1;
+        
+    }
+
+    .instagram-movil{
+        display: inline-block;
+        margin-top: 0px;
+        position: absolute;
+        padding-left: 5px;
+    }
+
+    .instagram{
+        opacity: 0;
+        cursor: default;
+    }
+ 
+    .tiktok-movil{
+        display: flex;
+        position: absolute;
+        padding-left: 55px;
+    }
+    
+    .tiktok{
+        opacity: 0;
+        cursor: default;
+        ;
+    }
+ 
+    .face-movil{
+        display: block;
+        margin: 0px;;
+        position: absolute;;
+        padding-left: 105px;
+    }
+
+    .face{
+        opacity: 0;
+        cursor: default;
+    }
+
+ 
+    .what-movil{
+        display: flex;
+        margin: 0px;;
+        position: absolute;
+        padding-left: 155px;
+
+    }
+
+    .what{
+        opacity: 0;
+        cursor: default;
         
     }
 
@@ -796,7 +803,7 @@
 
     .fondo-img{
         padding: 0px;
-        width: 1864px;
+        width: 1904px;
         z-index: 1;
         
     }
@@ -847,7 +854,7 @@
     }
 
     .izq{
-        margin-left: 4%;
+        margin-left: 5.3%;
     }
 
     .trabajost{
@@ -899,6 +906,69 @@
         height: 20px;
         width: 20px;
       
+    }
+    .instagram{
+        margin-left: 250px;
+        text-decoration: none;;
+        color: white;;
+        text-align: center;
+        justify-content: center;
+        transition: all 0.2ms ease;
+    }
+
+    .instagram:hover{
+        -webkit-transform: scale(1.2);transform: scale(1.2);
+        background-color:#E1306C ;
+        padding: 5px 10px  7px 10px;
+        border-radius: 30px;
+        transition: all 500ms ease;
+    }
+
+    .tiktok{
+        margin-left: 20px;
+        text-decoration: none;;
+        color: white;;
+        transition: all 500ms ease;
+    }
+
+    .tiktok:hover{
+        -webkit-transform: scale(1.2);transform: scale(1.2);
+        background-color:#00f2ea ;
+        padding: 5px 10px  7px 10px;
+        border-radius: 30px;
+        transition: all 500ms ease;
+    }
+
+    .face{
+        margin-left: 20px;
+        text-decoration: none;;
+        color: white;;  
+
+    }
+
+    .face:hover{
+    
+        -webkit-transform: scale(1.2);transform: scale(1.2);
+        background-color:#4267B2;
+        padding: 5px 10px  7px 10px;
+        border-radius: 30px;
+        transition: all 500ms ease;
+    }
+
+    .what{
+        margin-left: 20px;
+        text-decoration: none;;
+        color: white;;  
+        transition: all 500ms ease;
+    }
+
+    .what:hover{
+    
+        -webkit-transform: scale(1.2);transform: scale(1.2);
+        background-color:#25D366;
+        padding: 5px 10px  7px 10px;
+        border-radius: 30px;
+        transition: all 500ms ease;
     }
 
     .big{
@@ -1084,5 +1154,143 @@
         z-index: 1000;
         width: 390px;
     }
-}
 
+    .fondo-libro-movil-ult{
+        width: 390px;;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 1023px){
+    .sobre-expuesto{
+        position: absolute;
+        background-color: black;
+        margin: 25px;
+        margin-top: 170px;
+
+        color: white;
+        font-family: 'Dosis', sans-serif;
+    } 
+    .fondo-libro-ordenador{
+        width: 835px;
+    }
+    .sobre-expuesto p{
+        padding: 20px ;
+        font-size: 1.4rem;
+    }
+    .sobre-expuesto ol li{
+        padding: 30px ;
+        padding-left: 30px;;
+        font-size: 1.4rem;
+    }
+    .sobre-expuesto h1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sobre-expuesto h2{
+        padding: 30px ;
+        font-size: 1.5rem;
+        text-decoration: underline;
+    }
+
+    .sobre-expuesto h3{
+        padding: 70px 40px;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+
+    .fondo-libro-movil{
+        width: 390px;;
+        height: 800px;
+        top: 0;
+        z-index: -1;
+    }
+    .cuidados li{
+
+        padding-top: 90px;
+        padding-right: 50px;
+        
+    }
+
+    .navbar-libro{
+        left: 30%;
+    }
+
+    .fondo-libro-ordenador-ult{
+        width: 835px;;
+
+    }
+
+    .fondo-libro-ordenador-ult-real{
+        width: 835px;
+        height: 450px;
+    }
+}
+@media screen and (min-width: 1024px){
+    .sobre-expuesto{
+        position: absolute;
+        background-color: black;
+        margin: 70px;
+        margin-top: 170px;
+
+        color: white;
+        font-family: 'Dosis', sans-serif;
+    } 
+    .fondo-libro-ordenador{
+        width: 1865px;
+    }
+    .sobre-expuesto p{
+        padding: 30px ;
+        font-size: 1.4rem;
+    }
+    .sobre-expuesto ol li{
+        padding: 30px ;
+        padding-left: 30px;;
+        font-size: 1.4rem;
+    }
+    .sobre-expuesto h1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sobre-expuesto h2{
+        padding: 50px ;
+        font-size: 1.7rem;
+        text-decoration: underline;
+    }
+
+    .sobre-expuesto h3{
+        padding: 70px 40px;
+        font-size: 1rem;
+        text-decoration: underline;
+    }
+
+    .fondo-libro-movil{
+        width: 390px;;
+        height: 800px;
+        top: 0;
+        z-index: -1;
+    }
+    .cuidados li{
+
+        padding-top: 90px;
+        padding-right: 50px;
+        
+    }
+
+    .navbar-libro{
+        left: 30%;
+    }
+
+    .fondo-libro-ordenador-ult-real{
+        width: 1865px;;
+
+    }
+
+    .fondo-libro-ordenador-ult{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+    }
+}
