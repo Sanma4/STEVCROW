@@ -23,23 +23,37 @@
     display: flex;
     z-index: 5;
     font-size: 1rem;
-    position: absolute;
-    margin: 20px;
-    padding: 20px; 
-    text-align: center;
-    background-color: transparent;
     color: rgb(0, 0, 0);
-    border-color: rgb(0, 0, 0);
-    box-shadow: 5px 5px 5px black;
-    margin-top: 550px;
-    margin-left: 110px;
+    position: absolute;
+    padding: 20px;
+    margin-top: 250px;
     font-family: 'Abril Fatface', cursive;
-    transition: all 800ms ease;
+    justify-content: center;
+    font-size: bold;
+    background-color: transparent;
     border-radius: 10px;
+    box-shadow: 10px 12px 10px black;
     border: none;
 
 }
 
+.reserva-pre{
+    display: flex;
+    z-index: 5;
+    font-size: 2rem;
+    margin: auto;   
+    color: rgb(0, 0, 0);
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    font-family: 'Abril Fatface', cursive;
+    justify-content: center;
+    font-size: bold;
+}
 .reserva:hover{
     background-color: #000000;
     color: white;
@@ -49,17 +63,24 @@
 
 
 .reservat{
-    z-index: 1;
-    display: flex;;
-    font-size: 1.5rem;  
+    display: flex;
+    z-index: 5;
+    font-size: 2rem;
+    margin: auto;   
     color: rgb(0, 0, 0);
     position: absolute;
-    margin-top: 400px;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin: auto;
+    margin-top: 250px;
     font-family: 'Abril Fatface', cursive;
-
-
-    text-align: center;
+    justify-content: center;
+    font-size: bold;
 }
+
 
 .reservac{
     display: flex;
@@ -132,6 +153,11 @@
 }
 
 .mtrabajos:hover{
+    -webkit-transform:scale(1.1);transform:scale(1.1);
+    transition: all 800ms ease;
+}
+
+.izq:hover{
     -webkit-transform:scale(1.1);transform:scale(1.1);
     transition: all 800ms ease;
 }
@@ -733,7 +759,7 @@
         display: inline-block;
         margin-top: 0px;
         position: absolute;
-        padding-left: 5px;
+        margin-left: 5px;
     }
 
     .instagram{
@@ -744,7 +770,7 @@
     .tiktok-movil{
         display: flex;
         position: absolute;
-        padding-left: 55px;
+        margin-left: 55px;
     }
     
     .tiktok{
@@ -757,7 +783,7 @@
         display: block;
         margin: 0px;;
         position: absolute;;
-        padding-left: 105px;
+        margin-left: 105px;
     }
 
     .face{
@@ -770,7 +796,7 @@
         display: flex;
         margin: 0px;;
         position: absolute;
-        padding-left: 155px;
+        margin-left: 155px;
 
     }
 
@@ -803,7 +829,7 @@
 
     .fondo-img{
         padding: 0px;
-        width: 1904px;
+        width: 100%;
         z-index: 1;
         
     }
@@ -814,7 +840,7 @@
     }
     .reservan{
         font-size: 4rem;
-        margin-left: 2%;
+        margin-left: 1%;
         color: white;
         
     }
@@ -834,11 +860,16 @@
         font-size: 2.5rem;
         padding: 20px;
         color: white;
-        margin-left: 450px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
     }
     .reserva{
-        margin-left: 810px;
-        margin-top: 650px;
+        margin-top: 750px;
+        align-items: center;
+        color: white;;
     }
     
     /*trabajos */
@@ -857,6 +888,7 @@
         margin-left: 5.3%;
     }
 
+
     .trabajost{
         text-align: center;
         font-family:'Abril Fatface', cursive;
@@ -872,6 +904,17 @@
         color: black;
         
     }
+
+    .mtrabajos:hover{
+        -webkit-transform:scale(1.1);transform:scale(1.1);
+        transition: all 800ms ease;
+    }
+    
+    .izq:hover{
+        -webkit-transform:scale(1.1);transform:scale(1.1);
+        transition: all 800ms ease;
+    }
+
 
     /* Titulos */
     .titulost{
@@ -907,69 +950,39 @@
         width: 20px;
       
     }
-    .instagram{
-        margin-left: 250px;
-        text-decoration: none;;
-        color: white;;
-        text-align: center;
-        justify-content: center;
-        transition: all 0.2ms ease;
+    .instagram-movil{
+        display: inline-block;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 5px;
     }
 
-    .instagram:hover{
-        -webkit-transform: scale(1.2);transform: scale(1.2);
-        background-color:#E1306C ;
-        padding: 5px 10px  7px 10px;
-        border-radius: 30px;
-        transition: all 500ms ease;
+
+    .tiktok-movil{
+        display: inline-block;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 55px;
     }
 
-    .tiktok{
-        margin-left: 20px;
-        text-decoration: none;;
-        color: white;;
-        transition: all 500ms ease;
+
+
+    .face-movil{
+        display: inline-block;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 105px;
     }
 
-    .tiktok:hover{
-        -webkit-transform: scale(1.2);transform: scale(1.2);
-        background-color:#00f2ea ;
-        padding: 5px 10px  7px 10px;
-        border-radius: 30px;
-        transition: all 500ms ease;
+
+
+    .what-movil{
+        display: inline-block;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 155px;
     }
 
-    .face{
-        margin-left: 20px;
-        text-decoration: none;;
-        color: white;;  
-
-    }
-
-    .face:hover{
-    
-        -webkit-transform: scale(1.2);transform: scale(1.2);
-        background-color:#4267B2;
-        padding: 5px 10px  7px 10px;
-        border-radius: 30px;
-        transition: all 500ms ease;
-    }
-
-    .what{
-        margin-left: 20px;
-        text-decoration: none;;
-        color: white;;  
-        transition: all 500ms ease;
-    }
-
-    .what:hover{
-    
-        -webkit-transform: scale(1.2);transform: scale(1.2);
-        background-color:#25D366;
-        padding: 5px 10px  7px 10px;
-        border-radius: 30px;
-        transition: all 500ms ease;
-    }
 
     .big{
         text-decoration: none;
@@ -1007,7 +1020,7 @@
         position: fixed;
         z-index: 100;
         width: 100%;
-        opacity: 0.6;
+        opacity: 0.8;
     }
 
     .navbar{
@@ -1066,16 +1079,43 @@
     
     /* Burguer */
 
+    /* Burger menu */
     .bars__menu{
         width: 30px;
         height: 30px;
         position: absolute;
         left: 85%;
-        top: 10%;
+        top: 50%;
         transform: translate(-50%, -50%);
         cursor: pointer;
         z-index: 100;
+    }
+    
+    .bars__menu span {
+        display: block;
+        width: 100%;
+        height: 2px;
+        background: #9A00BF;
+        margin-top: 6px;
+        transform-origin: 0px 100%;
+        transition: all 700ms;
+    }
+    
+    .activeline1__bars-menu{
+        transform: rotate(45deg) translate(-2px, 1px); 
+    }
+    
+    .activeline2__bars-menu{
         opacity: 0;
+        margin-left: -30px; 
+    }
+    
+    .activeline3__bars-menu{
+        transform: rotate(-45deg) translate(-4px, 2px);
+    }
+    .navbar{
+        background-color: #000000;
+        
     }
     
     /* Menu escondido */
@@ -1090,10 +1130,33 @@
         z-index: 1000;
         transition: all 700ms cubic-bezier(0.785, 0.135, 0.15, 0.86);
         font-family: 'Dosis', sans-serif;
-        height: 700px;
+        height: 800px;
         padding-right: 10px;
-        opacity: 0;
+        cursor: default;
+        margin-left: -1000px;
     }
+
+    .menu a{
+        text-decoration: none;
+        color: white;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    .menu li{
+        padding-top: 80px;
+        padding-right: 50px;
+    }
+    .activemenu{
+        opacity: 1;
+        margin-right: -60px;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+
+    .menu a:hover{
+        text-decoration: underline;
+    }
+
 }
 
 /* Libro */
