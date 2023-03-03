@@ -26,7 +26,7 @@
     color: rgb(0, 0, 0);
     position: absolute;
     padding: 20px;
-    margin-top: 250px;
+    margin-top: 150px;
     font-family: 'Abril Fatface', cursive;
     justify-content: center;
     font-size: bold;
@@ -254,6 +254,103 @@
         display: none;
     }
 
+    .reserva{
+        display: flex;
+        z-index: 5;
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        padding: 20px;
+        margin-top: 615px;
+        font-family: 'Abril Fatface', cursive;
+        justify-content: center;
+        font-size: bold;
+        background-color: transparent;
+        border-radius: 10px;
+        box-shadow: 10px 12px 10px black;
+        border: none;
+    
+    }
+    
+    .reserva-pre{
+        display: flex;
+        z-index: 5;
+        font-size: 2rem;
+        margin: auto;   
+        color: rgb(0, 0, 0);
+        position: absolute;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        font-family: 'Abril Fatface', cursive;
+        justify-content: center;
+        font-size: bold;
+    }
+    .reserva:hover{
+        background-color: #000000;
+        color: white;
+        transition: all 800ms ease;
+        box-shadow:none;
+    }
+    
+    
+    .reservat{
+        display: flex;
+        z-index: 5;
+        font-size: 1.5rem;
+        margin: auto;   
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 450px;
+        font-family: 'Abril Fatface', cursive;
+        justify-content: center;
+        font-size: bold;
+        text-align: center;
+    }
+    
+    
+    .reservac{
+        display: flex;
+        z-index: 5;
+        font-size: 1.1rem;
+        color: rgb(0, 0, 0);
+        margin: auto;
+        position: absolute;
+        padding: 20px;
+        font-family: 'Dosis', sans-serif;
+        justify-content: center;
+        text-align: center;
+        margin-top: 415px;
+    
+    }
+    
+    .reservan{
+        display: flex;
+        z-index: 5;
+        font-size: 2rem;
+        margin: auto;   
+        color: rgb(0, 0, 0);
+        position: absolute;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 250px;
+        font-family: 'Courgette', cursive;
+        justify-content: center;
+        font-size: bold;
+    }
+
     
     
     .faq{
@@ -414,6 +511,7 @@
         font-family: 'Dosis', sans-serif;
         height: 700px;
         padding-right: 10px;
+        margin-left: -1000px;
     }
 
     .menu a{
@@ -429,6 +527,7 @@
     .activemenu{
         opacity: 1;
         margin-right: -60px;
+        margin-left: 0px;
     }
 
     .menu a:hover{
@@ -483,6 +582,102 @@
         z-index: 5;
         margin-left: 90px;
     }
+
+    .reserva{
+        display: flex;
+        z-index: 5;
+        font-size: 1rem;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        padding: 20px;
+        font-family: 'Abril Fatface', cursive;
+        justify-content: center;
+        font-size: bold;
+        background-color: transparent;
+        border-radius: 10px;
+        box-shadow: 10px 12px 10px black;
+        border: none;
+        margin-right: 250px
+    }
+    
+    .reserva-pre{
+        display: flex;
+        z-index: 5;
+        font-size: 2rem;
+        margin: auto;   
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        font-family: 'Abril Fatface', cursive;
+        justify-content: center;
+        font-size: bold;
+    }
+    .reserva:hover{
+        background-color: #000000;
+        color: white;
+        transition: all 800ms ease;
+        box-shadow:none;
+    }
+    
+    
+    .reservat{
+        display: flex;
+        z-index: 5;
+        font-size: 1.5rem;
+        margin: auto;   
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 450px;
+        font-family: 'Abril Fatface', cursive;
+        justify-content: center;
+        font-size: bold;
+        text-align: center;
+    }
+    
+    
+    .reservac{
+        display: flex;
+        z-index: 5;
+        font-size: 1.1rem;
+        color: rgb(0, 0, 0);
+        margin: auto;
+        position: absolute;
+        padding: 20px;
+        font-family: 'Dosis', sans-serif;
+        justify-content: center;
+        text-align: center;
+        margin-top: 415px;
+    
+    }
+    
+    .reservan{
+        display: flex;
+        z-index: 5;
+        font-size: 2rem;
+        margin: auto;   
+        color: rgb(0, 0, 0);
+        position: absolute;
+        padding: 20px;
+        top: 0;
+        left: 0;
+        right:0;
+        bottom: 0;
+        margin: auto;
+        margin-top: 250px;
+        font-family: 'Courgette', cursive;
+        justify-content: center;
+        font-size: bold;
+    }
+
     
     /* Cita */
 
@@ -525,7 +720,7 @@
         color: white;
     }
     .reserva{
-        margin-left: 310px;
+        margin-left: 250px;
         margin-top: 850px;
         color: white;;
     }
@@ -724,6 +919,7 @@
         height: 950px;
         padding-right: 10px;
         z-index: 100;
+        margin-left: -1000px;
     }
 
     .menu a{
@@ -745,6 +941,7 @@
         z-index: 100;
         color: #000000;
         opacity: 0.9;
+        margin-left: 0px;
         
     }
 
@@ -842,7 +1039,7 @@
         font-size: 4rem;
         margin-left: 1%;
         color: white;
-        
+        margin-top: 13%;
     }
     
     .reservac{
@@ -852,11 +1049,11 @@
         right: 0;
         bottom: 0;
         color: white;
-        margin-top: 550px;
+        margin-top: 28%;
     }
 
     .reservat{
-        margin-top: 400px;;
+        margin-top: 20%;
         font-size: 2.5rem;
         padding: 20px;
         color: white;
@@ -867,7 +1064,7 @@
 
     }
     .reserva{
-        margin-top: 750px;
+        margin-top: 40%;
         align-items: center;
         color: white;;
     }
